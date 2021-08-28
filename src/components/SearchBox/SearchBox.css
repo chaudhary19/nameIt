@@ -1,0 +1,28 @@
+.SearchBox-container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.searchbox {
+    width: 450px;
+    height: 30px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 25px;
+    border-style: none;
+    font-family: 'Hachi Maru Pop', cursive;
+    color: #e7e9f0;
+    background: #a592f2;
+    border-width: 0px;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+.searchbox:focus {
+    outline-width: 0;
+}
+
+.searchbox::placeholder {
+    color: #e7e9f0;
+}
